@@ -82,6 +82,9 @@
     },
     "items": {
       "type": "json"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

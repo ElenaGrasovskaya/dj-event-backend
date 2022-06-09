@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['https://libraportal.vercel.app']
+      origin: ['https://libraportal.vercel.app', 'http://localhost:3000', 'https://portal.libramebel.od.ua', "*"]
     }
   },
   'strapi::poweredBy',

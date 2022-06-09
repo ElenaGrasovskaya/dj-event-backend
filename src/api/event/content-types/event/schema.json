@@ -58,6 +58,33 @@
     },
     "image_url": {
       "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "clientPrice": {
+      "type": "decimal"
+    },
+    "clientPrepay": {
+      "type": "decimal"
+    },
+    "clientDept": {
+      "type": "decimal"
+    },
+    "expenses": {
+      "type": "decimal"
+    },
+    "expensesPersonal": {
+      "type": "decimal"
+    },
+    "interest": {
+      "type": "decimal"
+    },
+    "items": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

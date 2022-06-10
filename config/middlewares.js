@@ -5,8 +5,10 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      headers: '*',
-      origin: ['https://libraportal.vercel.app', 'http://localhost:3000', 'https://portal.libramebel.od.ua', 'https://portal.libramebel.od.ua/account/login', "*"]
+       cors: {
+      origin: ['*'], //allow all origins
+      headers: ['*'], //allow all headers
+    },
     }
   },
   'strapi::poweredBy',

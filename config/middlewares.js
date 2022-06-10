@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ["https://portal.libramebel.od.ua/account/login", "https://portal.libramebel.od.ua","https://libraportal.vercel.app" ]
+      origin: ['http://localhost:1337', 'http://localhost:3000', 'https://portal.libramebel.od.ua/account/login', 'https://portal.libramebel.od.ua','https://libraportal.vercel.app', '' ]
     }
   },
   
@@ -19,12 +19,5 @@ module.exports = [
   'strapi::public',
 ];
 
-module.exports = {
-  settings: {
-    cors: {
-      origin: ['http://localhost', 'https://mysite.com', 'https://www.mysite.com'],
-    },
-  },
-}
 
 

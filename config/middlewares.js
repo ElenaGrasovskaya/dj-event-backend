@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['https://libraportal-backend.herokuapp.com/', 'http://localhost:1337', 'https://libraportal-backend.herokuapp.com/','http://localhost:3000', 'https://portal.libramebel.od.ua/account/login', 'https://portal.libramebel.od.ua','https://libraportal.vercel.app' ]
+      origin: ['https://libraportal-backend.herokuapp.com', 'http://localhost:1337','http://localhost:3000', 'https://portal.libramebel.od.ua/account/login', 'https://portal.libramebel.od.ua','https://libraportal.vercel.app' ]
     }
   },
   

@@ -4,11 +4,12 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: false,
+      enabled: true,
       headers: '*',
-      origin: ['*']
+      origin: ["https://portal.libramebel.od.ua/account/login", "https://portal.libramebel.od.ua","https://libraportal.vercel.app" ]
     }
   },
+  
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
@@ -17,3 +18,13 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+
+module.exports = {
+  settings: {
+    cors: {
+      origin: ['http://localhost', 'https://mysite.com', 'https://www.mysite.com'],
+    },
+  },
+}
+
+

@@ -85,6 +85,13 @@
     },
     "title": {
       "type": "string"
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "userName": {
+      "type": "string"
     }
   }
 }

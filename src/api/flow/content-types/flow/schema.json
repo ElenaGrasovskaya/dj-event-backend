@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flows",
+  "info": {
+    "singularName": "flow",
+    "pluralName": "flows",
+    "displayName": "Flows"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

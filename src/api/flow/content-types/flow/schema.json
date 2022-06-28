@@ -4,8 +4,7 @@
   "info": {
     "singularName": "flow",
     "pluralName": "flows",
-    "displayName": "Flows",
-    "description": ""
+    "displayName": "Flows"
   },
   "options": {
     "draftAndPublish": true

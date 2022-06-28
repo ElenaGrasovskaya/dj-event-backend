@@ -68,6 +68,12 @@
       "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "users_permissions_user"
+    },
+    "flows": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flow.flow",
+      "mappedBy": "users_permissions_user"
     }
   }
 }

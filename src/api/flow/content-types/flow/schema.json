@@ -4,7 +4,8 @@
   "info": {
     "singularName": "flow",
     "pluralName": "flows",
-    "displayName": "Flows"
+    "displayName": "Flows",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,19 @@
     },
     "value": {
       "type": "decimal"
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "userName": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "flows"
     }
   }
 }

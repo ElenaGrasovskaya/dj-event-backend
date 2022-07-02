@@ -74,6 +74,12 @@
       "relation": "oneToMany",
       "target": "api::flow.flow",
       "mappedBy": "users_permissions_user"
+    },
+    "expenses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expense.expense",
+      "mappedBy": "users_permissions_user"
     }
   }
 }

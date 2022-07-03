@@ -92,6 +92,12 @@
     },
     "userName": {
       "type": "string"
+    },
+    "salary": {
+      "type": "decimal"
+    },
+    "percent": {
+      "type": "integer"
     }
   }
 }

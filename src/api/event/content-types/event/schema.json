@@ -96,7 +96,13 @@
     "salary": {
       "type": "decimal"
     },
+    "salaryMax":{
+      "type": "decimal"
+    },
     "percent": {
+      "type": "integer"
+    },
+    "percentMax": {
       "type": "integer"
     }
   }

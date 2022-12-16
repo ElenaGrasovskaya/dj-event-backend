@@ -86,6 +86,12 @@
       "relation": "oneToMany",
       "target": "api::backup.backup",
       "mappedBy": "users_permissions_user"
+    },
+    "shared_expenses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::shared-expense.shared-expense",
+      "mappedBy": "users_permissions_user"
     }
   }
 }

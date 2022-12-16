@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shared_expenses",
+  "info": {
+    "singularName": "shared-expense",
+    "pluralName": "shared-expenses",
+    "displayName": "Shared-expenses",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "shared_expenses"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "hidden": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
